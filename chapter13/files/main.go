@@ -1,8 +1,10 @@
 package main
 
-import "os"
-import "fmt"
-import "path/filepath"
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+)
 
 func main() {
 	fileW, err := os.Create("test.txt")
